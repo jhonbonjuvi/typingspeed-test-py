@@ -6,4 +6,12 @@ def test_type(variableName):
     print(variableName)
     input("Please hit Enter para masugdan....")
 
+    # declaring variables
+    # e call ang object sa time
     time_start = time.time()
+    typedText = input()
+    end_time = time.time()
+    
+
+    time_mahuman =  end_time - time_start
+    wordPerMinit = len(typedText.split)
