@@ -16,6 +16,12 @@ def test_type(variableName):
     time_mahuman =  end_time - time_start
 
     # gamitan ug split para ma tagsa and ma list
-    length_word = typedText.split()
-    forMinute = time_mahuman/60
-    wordPerMinit = len(typedText.split)
+    length_word = len(typedText.split())
+    forMinute = time_mahuman / 60
+    wordPerMinit = length_word / forMinute
+    print("Your speed on typing is " + str(wordPerMinit) + " word per minute")
+
+test_type("Testing Speed test")
+
+
+
