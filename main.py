@@ -14,4 +14,7 @@ def test_type(variableName):
     
 
     time_mahuman =  end_time - time_start
+
+    length_word = typedText.split 
+    forMinute = time_mahuman/60
     wordPerMinit = len(typedText.split)
